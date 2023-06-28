@@ -1,0 +1,14 @@
+{
+    "name": "root",
+    "scripts": {
+        "build": "turbo run build"
+    },
+    "pnpm": {
+        "overrides": {
+            "follow-redirects": "workspace:*"
+        }
+    },
+    "devDependencies": {
+        "turbo": "^1.10.3"
+    }
+}
